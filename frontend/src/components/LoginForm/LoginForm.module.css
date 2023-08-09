@@ -1,0 +1,60 @@
+.sign-in-button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+}
+
+.sign-in-button:disabled,
+.sign-in-button:disabled:hover,
+.sign-in-button:disabled:active {
+  background-color: #ccc;
+  color: #2c3e50;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.input-remember {
+  display: flex;
+}
+
+.input-remember label {
+  margin-left: 0.25rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.input-wrapper label {
+  font-weight: bold;
+}
+
+.input-wrapper input {
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.input-invalid,
+.input-invalid:hover,
+.input-invalid:active {
+  background-color: #ffc1c1;
+  border-color: red;
+  border-radius: 5px;
+}
+
+.error {
+  margin: 0.5rem 0 0;
+  line-height: 1.2;
+  font-size: 1rem;
+  font-weight: 500;
+  color: red;
+}
